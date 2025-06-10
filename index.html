@@ -1,0 +1,96 @@
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="bd.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivo.css">
+    <title>Banco Aluguel</title>
+  </head>
+
+  <body>
+
+    <header>
+        <h1>
+          BEM VINDO AO PROJETO
+        </h1>
+    </header>
+
+    <section class="section1">
+
+      <h2>
+        PROJETO CRIADO DO ZERO - INSPIRADO EM UM NEGÓCIO REAL
+      </h2>
+
+      <p>
+        Nesse projeto me desafiei desde o início, utilizei o brModelo para a criação do modelo conceitual e lógico, onde de maneira simple e organizada consegui implementar completamente minha ideia, baseado naquilo que meu cliente solicitou. 
+      </p>
+
+      <br>
+
+      <p>Veja as imagens dos respectivos modelos:</p>
+
+    </section>
+
+    <section class="section-img">
+      
+      <img src="conceitual.png" class="clickable" onclick="openModal('conceitual.png')">
+      <img src="logico.png" class="clickable" onclick="openModal('logico.png')">
+    
+      <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="img01">
+      </div>
+
+    </section>
+
+    <section class="section3">
+
+      <h2>MODELO FÍSICO</h2>
+
+      <P> Partindo para o principal, criei as tabelas de acordo com a regra de negócio e inseri valores aleatórios para simular o banco real. Após toda sua criação, me aventurei realizando queries.</P>
+      <p>Veja o vídeo abaixo:</p>
+
+      <video controls>
+
+        <source src="aluguelbd.mp4" type="video/mp4">
+
+      </video>
+      
+    </section>
+
+    <section class="explicar">
+      <h2>EXPLICANDO QUERY</h2>
+    </section>
+
+    <section class="section4">
+  
+      <h2></h2>
+      
+      <p>Nesta query podemos observar a utilização da VIEW, que visa facilitar sua busca. Uma fez criada a query, basta fazer um select invocando seu nome, dessa maneira otimizamos o banco e ganhamos tempo de trabalho. A utilização do JOIN, ponteiramento para especificar a tabela, utilização da função IFNULL(), para descartar valores nulos e preencher seus espaços com informações específcas, tornando um visual mais agradável e padronização nas tabelas. De maneira simples utilizei mecanismos mais complexos com o intuito de uma query completa e detalhada.</p>
+
+      <img src="exemplo.png" class="clickable" onclick="openModal('exemplo.png')">
+
+    </section>
+
+    <footer id="contatos">
+      <p><b>© Todos os direitos reservados.</b></p>
+    </footer>
+
+<!-- JS -->
+<script>
+  function openModal(image) {
+    var modal = document.getElementById("myModal");
+    var modalImg = document.getElementById("img01");
+    modal.style.display = "flex"; 
+    modalImg.src = image; 
+  }
+
+  function closeModal() {
+    var modal = document.getElementById("myModal");
+    modal.style.display = "none";
+  }
+</script>
+
+</body>

@@ -1,0 +1,627 @@
+@media screen and (max-width: 1980px){
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+    
+      html,
+      body {
+        overflow-x: hidden;
+      }
+}
+
+@media screen and (min-width: 300px) {
+
+  header {
+    font-size: 13px;
+  }
+
+  .section1{
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.section1 h2{
+    font-size: 18px;
+  }
+
+.section1 p{
+    margin: 15px 5px 5px;
+    font-size: 15px;
+}
+
+.section-img{
+  flex-direction: column;
+  width: 250px;
+  height: 400px;
+  margin: 80px auto;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.section3 {
+  margin-top: -60px;
+  text-align: center;
+}
+
+.section3 h2{
+  font-size: 25px;
+}
+
+.section3 p{
+  font-size: 15px;
+}
+
+.section3 video{
+  height: 600px;
+  width: 300px;
+  margin: -140px;
+}
+
+.explicar{
+  margin-top: 240px;
+  text-align: center;
+  font-size: 17px;
+}
+
+.section4 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0px;
+}
+
+.section4 p{
+  margin-top: 15px;
+  font-size: 15px;
+  margin: 30px 15px 15px;
+  text-align: justify;
+}
+
+.section4 img{
+  width: 280px;
+  height: 300px;
+  margin: 30px;
+  gap: 20px;
+  cursor: pointer;
+}
+
+footer {
+  font-size: 15px;
+}
+}
+
+@media screen and (min-width: 370px) {
+
+  header {
+    font-size: 13px;
+  }
+
+  .section1 h2{
+    font-size: 15px;
+  }
+
+.section1 p{
+    margin: 15px 5px 5px;
+    font-size: 15px;
+}
+
+.section-img{
+  flex-direction: column;
+  width: 300px;
+  height: 400px;
+  margin: 80px auto;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.section4 img{
+  width: 360px;
+  height: 300px;
+  margin: 30px;
+  gap: 20px;
+  cursor: pointer;
+}
+}
+
+@media screen and (min-width: 400px) {
+
+  header {
+    font-size: 13px;
+  }
+
+  .section1 h2{
+    font-size: 15px;
+  }
+
+.section1 p{
+    margin: 15px 5px 5px;
+    font-size: 15px;
+}
+
+  .section-img{
+    flex-direction: column;
+    width: 350px;
+    height: 400px;
+    margin: 80px auto;
+    gap: 20px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 430px) {
+
+  .section3 video{
+    margin-top: -100px;
+    height: 600px;
+    width: 400px;
+  }
+
+  .section4 img{
+    width: 400px;
+    height: 250px;
+    margin: 30px;
+    gap: 20px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 500px) {
+
+  .section-img{
+    width: 470px;
+    height: 400px;
+  }
+
+  .section3 {
+    margin-top: 200px;
+    text-align: center;
+  }
+
+  .section3 h2{
+    font-size: 30px;
+  }
+
+  .section3 p{
+    margin: 15px 15px 15px;
+    font-size: 18px;
+  }
+
+  .section3 video{
+    margin-top: -120px;
+    height: 650px;
+    width: 450px;
+  }
+
+  .section4 img{
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 540px) {
+
+  .section1{
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .section1 h2{
+    font-size: 25px;
+  }
+
+  .section1 p{
+    margin: 15px 5px 5px;
+    font-size: 19px;
+  }
+
+  .section-img{
+    flex-direction: column;
+    width: 490px;
+    height: 400px;
+    margin: 80px auto;
+    gap: 20px;
+    cursor: pointer;
+  }
+
+  .section3 video{
+    width: 490px;
+  }
+
+  .section4 p{
+    margin-top: 15px;
+    font-size: 17px;
+    margin: 30px 15px 15px;
+    text-align: justify;
+  }
+
+  .section4 img{
+    width: 490px;
+    height: 300px;
+    margin: 30px;
+    gap: 20px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 630px) {
+  
+  header{
+    font-size: 17px;
+  }
+
+  .section-img{
+    width: 570px;
+    height: 400px;
+    margin: 80px auto;
+  }
+
+  .section3 {
+    margin-top: 300px;
+  }
+
+  .section3 video{
+    width: 570px;
+  }
+
+  .section4 p{
+    margin-top: 15px;
+    font-size: 17px;
+    margin: 30px 15px 15px;
+    text-align: justify;
+  }
+
+  .section4 img{
+    width: 570px;
+    height: 350px;
+    margin: 30px;
+    gap: 20px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 730px) {
+  
+  header{
+    font-size: 17px;
+  }
+
+  .section1 h2{
+    font-size: 24px;
+  }
+
+  .section1 p{
+    margin: 15px 5px 5px;
+    font-size: 20px;
+  }
+
+  .section-img{
+    width: 650px;
+    height: 400px;
+    margin: 80px auto;
+  }
+
+  .section3 {
+    margin-top: 400px;
+  }
+
+  .section3 h2{
+    font-size: 29px;
+  }
+
+  .section3 p{
+    font-size: 20px;
+  }
+
+  .section3 video{
+    width: 650px;
+  }
+
+  .explicar{
+    font-size: 22px;
+  }
+
+  .section4 p{
+    margin-top: 15px;
+    font-size: 20px;
+    margin: 30px 15px 15px;
+    text-align: justify;
+  }
+
+  .section4 img{
+    width: 650px;
+    height: 350px;
+    margin: 30px;
+    gap: 20px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 820px) {
+
+  .section-img{
+    width: 730px;
+    height: 400px;
+    margin: 80px auto;
+  }
+
+  .section3 {
+    margin-top: 460px;
+  }
+
+  .section3 video{
+    width: 730px;
+  }
+
+  .section4 img{
+    width: 730px;
+    height: 450px;
+    margin: 30px;
+    gap: 20px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 900px) {
+
+  .section1{
+      flex-direction: column;
+      margin-top: 50px;
+  }
+
+  .section1 h2{
+      font-size: 25px;
+    }
+
+  .section1 p{
+      margin: 15px 5px 5px;
+      font-size: 18px;
+  }
+
+  .section-img{
+    flex-direction: column;
+    width: 600px;
+    height: 400px;
+    margin: 80px auto;
+    gap: 20px;
+    cursor: pointer;
+  }
+
+  .section3 {
+    margin-top: 320px;
+    text-align: center;
+  }
+
+  .section3 h2{
+    font-size: 30px;
+  }
+
+  .section3 p{
+    margin: 15px 15px 15px;
+    font-size: 18px;
+  }
+  
+  .section3 video{
+    margin-top: 10px;
+    height: 600px;
+    width: 800px;
+  }
+
+  .explicar{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .section4 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+  }
+
+  .section4 p{
+    margin-top: 15px;
+    font-size: 20px;
+    margin: 30px 15px 15px;
+    text-align: justify;
+  }
+
+  .section4 img{
+    width: 700px;
+    height: 500px;
+    margin: 30px;
+    gap: 20px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  header {
+    margin-top: 120px;
+  }
+
+  .section1{
+    margin-top: 90px;
+    text-align: center;
+  }
+
+  .section1 h2{
+    font-size: 40px;
+  }
+
+  .section1 p{
+    margin-top: 15px;
+    font-size: 23px;
+  }
+
+  .section-img{
+    display: flex;
+    width: 800px;
+    height: 400px;
+    margin-top: 80px;
+    gap: 20px;
+    cursor: pointer;
+  }
+
+  .section3 {
+    margin-top: 580px;
+    text-align: center;
+  }
+
+  .section3 h2{
+    font-size: 40px;
+  }
+
+  .section3 p{
+    margin-top: 15px;
+    font-size: 23px;
+  }
+  
+  .section3 video{
+    margin-top: 40px;
+    height: 600px;
+    width: 800px;
+  }
+
+  .section4 {
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+  }
+
+  .section4 h2{
+    font-size: 40px;
+  }
+
+  .section4 p{
+    margin-top: -35px;
+    font-size: 25px;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: justify;
+  }
+
+  .section4 img{
+    width: 1000px;
+    height: 600px;
+    margin-top: 20px;
+    margin-left: 50px;
+    gap: 20px;
+    cursor: pointer;
+  }
+
+  .explicar{
+    margin-top: 270px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1%;
+    margin-top: 150px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  
+  header {
+    text-align: center;
+    margin-top: 90px;
+  }
+
+  .section1{
+    margin-top: 90px;
+    text-align: center;
+  }
+
+  .section1 h2{
+    font-size: 50px;
+  }
+
+  .section1 p{
+    margin-top: 15px;
+    font-size: 20px;
+  }
+
+  .section-img{
+    display: flex;
+    width: 900px;
+    height: 400px;
+    margin-top: 80px;
+    gap: 20px;
+    cursor: pointer;
+  }
+
+  .section3 {
+    margin-top: 700px;
+    text-align: center;
+  }
+
+  .section3 h2{
+    font-size: 50px;
+  }
+
+  .section3 p{
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  
+  .section3 video{
+    margin-top: 40px;
+    height: 600px;
+    width: 1200px;
+  }
+  
+  .explicar{
+    margin-top: 270px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .section4 {
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+  }
+
+  .section4 h2{
+    font-size: 40px;
+  }
+
+  .section4 p{
+    margin-top: 15px;
+    font-size: 25px;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: justify;
+  }
+
+  .section4 img{
+    width: 1000px;
+    height: 600px;
+    margin-top: 20px;
+    margin-left: 50px;
+    gap: 20px;
+    cursor: pointer;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1%;
+    margin-top: 150px;
+    font-size: 20px;
+  }
+}
